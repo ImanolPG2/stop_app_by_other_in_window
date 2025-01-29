@@ -22,10 +22,10 @@ git clone https://github.com/ImanolPG2/stop_app_by_other_in_window.git
 ```bash
 npm install
 ```
-4. Crear un archivo .env con tus variables con este formato: 
+4. Crear un archivo .env con tus variables con este formato (Donde vas agregar el ejecutable de las dos app que quieres trabajar): 
 ```bash
-GAME_NAME = EpicGamesLauncher.exe
-VPN_NAME = ProtonVPN.exe
+GAME_NAME = {app_first}.exe
+VPN_NAME = {app_second}.exe
 ```
 5.
 ```bash
