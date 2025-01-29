@@ -2,8 +2,8 @@ import psList from 'ps-list';
 import { exec } from 'child_process';
 import 'dotenv/config';
 
-const APP_FIRST = process.env.APP_FIRST; // Cambia esto por el nombre del ejecutable del juego
-const APP_SECOND = process.env.APP_SECOND; // Cambia esto por el nombre del proceso de la VPN
+const APP_FIRST = process.env.APP_FIRST; // Estas es la variable del primera app que se va a ejecutar
+const APP_SECOND = process.env.APP_SECOND; // Estas es la variable de la segunda app que se va a cerrar
 
 async function checkProcesses() {
     const processes = await psList();
