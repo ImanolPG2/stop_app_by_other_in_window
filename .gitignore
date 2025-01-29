@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Entornos virtuales y configuraciones
+.env
+.env.local
+.env.*.local
+
+# PM2 logs y procesos
+pm2.log
+pm2.pid
+pm2-dump.pm2
+
+# Editor y sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
